@@ -2,43 +2,43 @@
 
 ## 🚀 Project Highlights
 
-* Analyzed over 200,000 trading records to study market behavior
-* Built a complete data pipeline including cleaning, merging, and analysis
-* Derived insights on how market sentiment impacts trader performance
+* Analyzed over 200,000 trading records to study trader behavior under different market conditions
+* Built an end-to-end data pipeline including data cleaning, merging, and exploratory analysis
+* Derived insights on how market sentiment impacts profitability, win rate, and trade direction
 
 ---
 
 ## 📌 Overview
 
-This project explores how market sentiment influences trader performance. It combines trading data with the Fear and Greed Index to understand how emotions in the market affect profitability and decision-making.
+This project analyzes how market sentiment influences trader performance. It combines trading data with the Fear and Greed Index to examine how emotions in the market affect profitability and decision-making.
 
-The goal is to identify patterns in how traders behave under different market conditions such as fear, greed, and neutral phases.
+The objective is to identify patterns in trader behavior across different market conditions such as fear, greed, and neutral phases.
 
 ---
 
 ## 📊 Dataset
 
-The analysis uses two datasets. The first contains over 200,000 trading records, and the second represents the Fear and Greed Index, which reflects overall market sentiment.
+The analysis is based on two datasets. One contains over 200,000 trading records, while the other represents the Fear and Greed Index, which reflects overall market sentiment.
 
 ---
 
 ## ⚙️ Process
 
-The project begins by loading both datasets and preparing them for analysis. During the data cleaning stage, timestamp formats are standardized and sentiment labels are simplified for consistency.
+The project begins with loading both datasets and preparing them for analysis. During the data cleaning stage, timestamp formats are standardized and sentiment labels are simplified to ensure consistency.
 
-Once the data is cleaned, both datasets are merged using the date column so that each trade is aligned with the corresponding market sentiment. A new feature called `profit_flag` is then created to indicate whether a trade resulted in profit or loss.
+Once cleaned, the datasets are merged using the date column so that each trade is aligned with the corresponding market sentiment. A new feature called `profit_flag` is created to indicate whether a trade resulted in profit or loss.
 
-Finally, exploratory data analysis is performed to understand how profit, win rate, and trading behavior vary across different market conditions.
+Exploratory data analysis is then performed to evaluate how profit, win rate, and trading behavior vary across different market conditions.
 
 ---
 
 ## 📈 Key Insights
 
-The analysis shows that traders tend to generate higher profits during greedy market conditions, suggesting that bullish environments often provide better opportunities.
+The analysis shows that traders tend to generate higher profits during greedy market conditions, indicating that bullish environments often provide better opportunities.
 
-Sell trades perform particularly well during greed phases, which may indicate profit-taking behavior when markets are overbought. In contrast, buy trades perform relatively better during fear periods, suggesting that traders may be entering positions at lower prices.
+Sell trades perform particularly well during greed phases, suggesting profit-taking behavior when markets are overbought. In contrast, buy trades perform relatively better during fear periods, indicating accumulation strategies when prices are lower.
 
-Win rates also vary across market sentiment, highlighting how trader psychology plays an important role in trading outcomes.
+Win rates also vary across market sentiment, highlighting the strong influence of trader psychology on performance.
 
 ---
 
@@ -50,4 +50,4 @@ This project was implemented using Python, with Pandas for data manipulation and
 
 ## 📎 Conclusion
 
-The results demonstrate that market sentiment has a strong influence on trading performance. By understanding these behavioral patterns, traders can make more informed decisions and adapt their strategies to different market conditions.
+The results demonstrate that market sentiment has a significant impact on trading performance. Understanding these behavioral patterns can help traders make more informed decisions and adapt their strategies to different market conditions.
