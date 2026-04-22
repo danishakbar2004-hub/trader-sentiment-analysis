@@ -1,3 +1,5 @@
+## 🔗 View Notebook
+[Click here to view the analysis](./trader_behavior_analysis.ipynb)
 # Trader Behavior Analysis using Fear & Greed Index
 
 ## 🚀 Project Highlights
