@@ -51,3 +51,4 @@ This project was implemented using Python, with Pandas for data manipulation and
 ## 📎 Conclusion
 
 The results demonstrate that market sentiment has a significant impact on trading performance. Understanding these behavioral patterns can help traders make more informed decisions and adapt their strategies to different market conditions.
+This project demonstrates how behavioral finance and market sentiment can be leveraged to improve trading strategies using real-world data.
