@@ -8,21 +8,17 @@
 * Built an end-to-end data pipeline including data cleaning, merging, and exploratory analysis
 * Derived insights on how market sentiment impacts profitability, win rate, and trade direction
 
----
-
 ## 📌 Overview
 
 This project analyzes how market sentiment influences trader performance. It combines trading data with the Fear and Greed Index to examine how emotions in the market affect profitability and decision-making.
 
 The objective is to identify patterns in trader behavior across different market conditions such as fear, greed, and neutral phases.
 
----
 
 ## 📊 Dataset
 
 The analysis is based on two datasets. One contains over 200,000 trading records, while the other represents the Fear and Greed Index, which reflects overall market sentiment.
 
----
 
 ## ⚙️ Process
 
@@ -32,7 +28,6 @@ Once cleaned, the datasets are merged using the date column so that each trade i
 
 Exploratory data analysis is then performed to evaluate how profit, win rate, and trading behavior vary across different market conditions.
 
----
 
 ## 📈 Key Insights
 
@@ -42,15 +37,16 @@ Sell trades perform particularly well during greed phases, suggesting profit-tak
 
 Win rates also vary across market sentiment, highlighting the strong influence of trader psychology on performance.
 
----
 
 ## 🛠️ Tech Stack
 
 This project was implemented using Python, with Pandas for data manipulation and Matplotlib for visualization.
 
----
-
 ## 📎 Conclusion
 
 The results demonstrate that market sentiment has a significant impact on trading performance. Understanding these behavioral patterns can help traders make more informed decisions and adapt their strategies to different market conditions.
 This project demonstrates how behavioral finance and market sentiment can be leveraged to improve trading strategies using real-world data.
+
+## 📊 Sample Output
+<img width="1561" height="738" alt="image" src="https://github.com/user-attachments/assets/b607943b-87fd-4d1c-b657-1ae64e3ec005" />
+
